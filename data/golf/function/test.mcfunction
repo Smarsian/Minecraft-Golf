@@ -1,1 +1,0 @@
-say This is a test for @p
