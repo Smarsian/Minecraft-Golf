@@ -1,0 +1,18 @@
+scoreboard players set @a Total_Strokes 0
+scoreboard players set @a Course1Hole1 0
+scoreboard players set @a Course1Hole2 0
+scoreboard players set @a Course1Hole3 0
+scoreboard players set @a Course1Hole4 0
+scoreboard players set @a Course1Hole5 0
+scoreboard players set @a Course1Hole6 0
+scoreboard players set @a Course1Hole7 0
+scoreboard players set @a Course1Hole8 0
+scoreboard players set @a Course1Hole9 0
+
+
+
+
+
+
+
+

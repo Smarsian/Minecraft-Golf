@@ -1,3 +1,4 @@
+clear @p
 give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:1},minecraft:custom_name='Riptide 1']
 give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:2},minecraft:custom_name='Riptide 2']
 give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:3},minecraft:custom_name='Riptide 3']
