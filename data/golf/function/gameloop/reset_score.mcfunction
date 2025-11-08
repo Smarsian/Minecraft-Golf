@@ -8,11 +8,3 @@ scoreboard players set @a Course1Hole6 0
 scoreboard players set @a Course1Hole7 0
 scoreboard players set @a Course1Hole8 0
 scoreboard players set @a Course1Hole9 0
-
-
-
-
-
-
-
-
