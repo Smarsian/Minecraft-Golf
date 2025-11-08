@@ -11,4 +11,4 @@ execute if score @p[tag=hole1] Course1Hole1 matches 0 run tellraw @p "You're hac
 execute if score @p[tag=hole1] Course1Hole1 matches 8.. run tellraw @p "Yeah.. you kinda suck"
 execute as @p[tag=hole1] run tag @p add hole2
 execute as @p[tag=hole2] run tag @p remove hole1
-function golf:scoring/tp_to_hole
+function golf:gameloop/tp_to_hole
