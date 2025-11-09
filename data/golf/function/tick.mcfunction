@@ -1,6 +1,6 @@
 #Determines out of bounds
-execute as @p[tag=playing] at @s if block ~ ~-1 ~ minecraft:moss_block run function golf:scoring/out_of_bounds
-execute as @p[tag=playing] at @s if block ~ ~-1 ~ minecraft:lime_terracotta run function golf:scoring/out_of_bounds
+execute as @a[tag=playing] at @s if block ~ ~-1 ~ minecraft:moss_block run function golf:scoring/out_of_bounds
+execute as @a[tag=playing] at @s if block ~ ~-1 ~ minecraft:lime_terracotta run function golf:scoring/out_of_bounds
 
 # #Stop movement if not in tee box
 # execute as @p[tag=playing] at @s if block ~ ~-1 ~ minecraft:slime_block run attribute @s minecraft:movement_speed base set 0
@@ -28,5 +28,6 @@ execute as @p[tag=playing] at @s if block ~ ~-1 ~ minecraft:lime_terracotta run 
 
 
 #Completed the hole
-execute as @p[tag=playing,tag=hole1] at @s if block ~ ~-1 ~ minecraft:red_terracotta run function golf:scoring/calculate_score/hole1_scoring
-execute as @p[tag=playing,tag=hole2] at @s if block ~ ~-1 ~ minecraft:orange_terracotta run function golf:scoring/calculate_score/hole2_scoring
+execute as @a[tag=playing,tag=hole1] at @s if block ~ ~-1 ~ minecraft:red_terracotta run function golf:scoring/calculate_score/hole1_scoring
+execute as @a[tag=playing,tag=hole2] at @s if block ~ ~-1 ~ minecraft:orange_terracotta run function golf:scoring/calculate_score/hole2_scoring
+

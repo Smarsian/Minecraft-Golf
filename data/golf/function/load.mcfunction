@@ -1,2 +1,2 @@
-tellraw @p "Datapack is running!"
-effect give @p saturation infinite 255 true
+tellraw @a "Datapack is running!"
+effect give @a saturation infinite 255 true
