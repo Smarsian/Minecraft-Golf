@@ -1,6 +1,8 @@
 #Determines out of bounds
 execute as @a[tag=playing] at @s if block ~ ~-1 ~ minecraft:moss_block run function golf:scoring/out_of_bounds
 execute as @a[tag=playing] at @s if block ~ ~-1 ~ minecraft:lime_terracotta run function golf:scoring/out_of_bounds
+execute as @a[tag=playing] at @s if block ~ ~-1 ~ minecraft:grass_block run function golf:scoring/out_of_bounds
+
 
 #Completed the hole
 #hole 1
