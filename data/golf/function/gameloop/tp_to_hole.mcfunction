@@ -9,3 +9,7 @@ tp @s[tag=hole2,tag=easy_mode] -292 -58 26
 #tp to hole three
 tp @s[tag=hole3,tag=normal_mode] -273 -56 154
 tp @s[tag=hole3,tag=easy_mode] -235 -56 179
+
+#tp to hole four
+tp @s[tag=hole4,tag=normal_mode] -206 -56 206
+tp @s[tag=hole4,tag=easy_mode] -145 -56 161
