@@ -1,10 +1,2 @@
-clear @p
-give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:1},minecraft:custom_name='Riptide 1']
-give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:2},minecraft:custom_name='Riptide 2']
-give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:3},minecraft:custom_name='Riptide 3']
-give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:4},minecraft:custom_name='Riptide 4']
-give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:5},minecraft:custom_name='Riptide 5']
-give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:6},minecraft:custom_name='Riptide 6']
-give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:7},minecraft:custom_name='Riptide 7']
-give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:8},minecraft:custom_name='Riptide 8']
-give @p minecraft:trident[minecraft:enchantments={unbreaking:255,riptide:9},minecraft:custom_name='Riptide 9']
+clear @p minecraft:trident
+function golf:tridents/give_trident
