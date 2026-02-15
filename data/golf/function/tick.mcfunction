@@ -17,3 +17,8 @@ execute as @a[tag=playing,tag=hole3] at @s if block ~ ~-1 ~ minecraft:yellow_woo
 #hole 4
 execute as @a[tag=playing,tag=hole4] at @s if block ~ ~-1 ~ minecraft:lime_wool run function golf:scoring/calculate_score/hole4_scoring
 
+#hole 5
+execute as @a[tag=playing,tag=hole5] at @s if block ~ ~-1 ~ minecraft:green_wool run function golf:scoring/calculate_score/hole5_scoring
+
+execute as @a[tag=playing,tag=hole6] at @s run tellraw @s "End of Round!!!"
+execute as @a[tag=playing,tag=hole6] at @s run function golf:gameloop/end_game
